@@ -4,36 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_aETEk3xbf3bQxjoco08-144" value="管理员" style="shape=actor;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="100" y="100" width="80" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_aETEk3xbf3bQxjoco08-145" value="主菜单" style="shape=ellipse;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="150" y="150" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_aETEk3xbf3bQxjoco08-146" value="新增职工" style="shape=ellipse;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="150" y="250" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_aETEk3xbf3bQxjoco08-147" value="删除职工" style="shape=ellipse;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="150" y="350" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_aETEk3xbf3bQxjoco08-148" value="修改职工信息" style="shape=ellipse;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="150" y="450" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_aETEk3xbf3bQxjoco08-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_aETEk3xbf3bQxjoco08-149" target="_aETEk3xbf3bQxjoco08-146">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_aETEk3xbf3bQxjoco08-149" value="查询职工" style="shape=ellipse;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="350" y="250" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_aETEk3xbf3bQxjoco08-150" value="排序职工列表" style="shape=ellipse;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="350" y="350" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_aETEk3xbf3bQxjoco08-151" value="清空数据" style="shape=ellipse;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="350" y="450" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_aETEk3xbf3bQxjoco08-152" value="退出系统" style="shape=ellipse;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="550" y="250" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="_aETEk3xbf3bQxjoco08-153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="200" as="point" />
