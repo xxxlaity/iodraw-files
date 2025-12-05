@@ -44,27 +44,6 @@
             <mxPoint x="150" y="250" as="point" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vIljhsezYJcKIvShE0WA-1" value="Employee" style="shape=rectangle;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="100" width="150" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="vIljhsezYJcKIvShE0WA-2" value="id: int" style="shape=rectangle;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;rounded=0;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="100" y="140" width="150" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="vIljhsezYJcKIvShE0WA-3" value="name: String" style="shape=rectangle;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;rounded=0;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="100" y="165" width="150" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="vIljhsezYJcKIvShE0WA-4" value="age: int" style="shape=rectangle;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;rounded=0;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="100" y="190" width="150" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="vIljhsezYJcKIvShE0WA-5" value="Manager" style="shape=rectangle;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="100" width="150" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="vIljhsezYJcKIvShE0WA-6" value="dept: String" style="shape=rectangle;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;rounded=0;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="300" y="140" width="150" height="25" as="geometry" />
-        </mxCell>
-        <mxCell id="vIljhsezYJcKIvShE0WA-7" value="addEmployee()" style="shape=rectangle;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;rounded=0;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="300" y="165" width="150" height="25" as="geometry" />
-        </mxCell>
         <mxCell id="vIljhsezYJcKIvShE0WA-8" value="1..*" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="125" as="point" />
