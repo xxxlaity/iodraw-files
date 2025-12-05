@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_aETEk3xbf3bQxjoco08-143" value="职工管理系统" style="shape=rectangle;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="50" y="50" width="700" height="500" as="geometry" />
-        </mxCell>
         <mxCell id="_aETEk3xbf3bQxjoco08-144" value="管理员" style="shape=actor;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="100" y="100" width="80" height="120" as="geometry" />
         </mxCell>
@@ -21,6 +18,9 @@
         </mxCell>
         <mxCell id="_aETEk3xbf3bQxjoco08-148" value="修改职工信息" style="shape=ellipse;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="150" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_aETEk3xbf3bQxjoco08-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_aETEk3xbf3bQxjoco08-149" target="_aETEk3xbf3bQxjoco08-146">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_aETEk3xbf3bQxjoco08-149" value="查询职工" style="shape=ellipse;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="350" y="250" width="120" height="60" as="geometry" />
