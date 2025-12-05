@@ -39,18 +39,6 @@
             <mxPoint x="350" y="450" as="point" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_aETEk3xbf3bQxjoco08-161" value="职工管理系统" style="shape=rectangle;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="50" y="50" width="700" height="500" as="geometry" />
-        </mxCell>
-        <mxCell id="_aETEk3xbf3bQxjoco08-162" value="管理员" style="shape=actor;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="100" y="100" width="80" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="_aETEk3xbf3bQxjoco08-163" value="主菜单" style="shape=ellipse;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="150" y="150" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_aETEk3xbf3bQxjoco08-164" value="新增职工" style="shape=ellipse;whiteSpace=wrap;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="150" y="250" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="_aETEk3xbf3bQxjoco08-165" value="包含" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;endArrow=block;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="250" as="point" />
