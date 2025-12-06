@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) ioDraw.com/3.4.1 Chrome/124.0.6367.49 Electron/30.0.0 Safari/537.36" version="24.7.17">
   <diagram name="职工管理系统用例图" id="NH_HCJwVAWXhdM_kq8HJ">
-    <mxGraphModel dx="1163" dy="683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1357" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,6 +47,156 @@
         <mxCell id="vIljhsezYJcKIvShE0WA-8" value="1..*" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#000000;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="150" y="125" as="point" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-47" value="职工" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=27.166666666666668;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="299" y="764" width="288" height="170.16666666666669" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-48" value="- 编号 : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-47">
+          <mxGeometry y="27.166666666666668" width="288" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-49" value="- 姓名 : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-47">
+          <mxGeometry y="54.16666666666667" width="288" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-50" value="- 部门编号 : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-47">
+          <mxGeometry y="81.16666666666667" width="288" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-51" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-47">
+          <mxGeometry y="108.16666666666667" width="288" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-52" value="+&amp;lt;&amp;lt;纯虚&amp;gt;&amp;gt; 显示个人信息()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-47">
+          <mxGeometry y="116.16666666666667" width="288" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-53" value="+&amp;lt;&amp;lt;纯虚&amp;gt;&amp;gt; 获取部门名称()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-47">
+          <mxGeometry y="143.16666666666669" width="288" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-54" value="员工" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26.148147583007812;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1004" width="249" height="112.14814758300781" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-55" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-54">
+          <mxGeometry y="26.148147583007812" width="249" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-56" value="+构造函数(编号, 姓名, 部门编号)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-54">
+          <mxGeometry y="34.14814758300781" width="249" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-57" value="+显示个人信息()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-54">
+          <mxGeometry y="60.14814758300781" width="249" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-58" value="+获取部门名称()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-54">
+          <mxGeometry y="86.14814758300781" width="249" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-59" value="经理" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26.148147583007812;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="319" y="1004" width="249" height="112.14814758300781" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-60" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-59">
+          <mxGeometry y="26.148147583007812" width="249" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-61" value="+构造函数(编号, 姓名, 部门编号)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-59">
+          <mxGeometry y="34.14814758300781" width="249" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-62" value="+显示个人信息()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-59">
+          <mxGeometry y="60.14814758300781" width="249" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-63" value="+获取部门名称()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-59">
+          <mxGeometry y="86.14814758300781" width="249" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-64" value="总裁" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26.148147583007812;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="617" y="1004" width="249" height="112.14814758300781" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-65" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-64">
+          <mxGeometry y="26.148147583007812" width="249" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-66" value="+构造函数(编号, 姓名, 部门编号)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-64">
+          <mxGeometry y="34.14814758300781" width="249" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-67" value="+显示个人信息()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-64">
+          <mxGeometry y="60.14814758300781" width="249" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-68" value="+获取部门名称()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-64">
+          <mxGeometry y="86.14814758300781" width="249" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-69" value="职工管理系统" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=24.087721975226152;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="322" y="230" width="241" height="464.08772197522615" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-70" value="- 职工总数 : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="24.087721975226152" width="241" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-71" value="- 职工集合 : 职工*" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="48.08772197522615" width="241" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-72" value="- 文件为空标志 : bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="72.08772197522615" width="241" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-73" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="96.08772197522615" width="241" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-74" value="+构造函数()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="104.08772197522615" width="241" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-75" value="+析构函数()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="128.08772197522615" width="241" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-76" value="+显示操作菜单()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="152.08772197522615" width="241" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-77" value="+退出系统()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="176.08772197522615" width="241" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-78" value="+添加职工()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="200.08772197522615" width="241" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-79" value="+保存数据到文件()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="224.08772197522615" width="241" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-80" value="+统计职工数量()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="248.08772197522615" width="241" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-81" value="+从文件初始化职工数据()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="272.08772197522615" width="241" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-82" value="+显示所有职工()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="296.08772197522615" width="241" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-83" value="+检查职工是否存在(编号) : : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="320.08772197522615" width="241" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-84" value="+删除职工()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="344.08772197522615" width="241" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-85" value="+修改职工信息()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="368.08772197522615" width="241" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-86" value="+查找职工()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="392.08772197522615" width="241" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-87" value="+按编号排序职工()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="416.08772197522615" width="241" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-88" value="+清空所有数据()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DZbiVoDGLN_IA8LNfd-K-69">
+          <mxGeometry y="440.08772197522615" width="241" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-89" value="继承" style="curved=1;startArrow=block;startSize=16;startFill=0;endArrow=none;exitX=0;exitY=0.84;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="DZbiVoDGLN_IA8LNfd-K-47" target="DZbiVoDGLN_IA8LNfd-K-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="144" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-90" value="继承" style="curved=1;startArrow=block;startSize=16;startFill=0;endArrow=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="DZbiVoDGLN_IA8LNfd-K-47" target="DZbiVoDGLN_IA8LNfd-K-59">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-91" value="继承" style="curved=1;startArrow=block;startSize=16;startFill=0;endArrow=none;exitX=1;exitY=0.84;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="DZbiVoDGLN_IA8LNfd-K-47" target="DZbiVoDGLN_IA8LNfd-K-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="741" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DZbiVoDGLN_IA8LNfd-K-92" value="聚合（1对多）" style="curved=1;startArrow=diamondThin;startSize=14;startFill=1;endArrow=none;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="DZbiVoDGLN_IA8LNfd-K-69" target="DZbiVoDGLN_IA8LNfd-K-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
