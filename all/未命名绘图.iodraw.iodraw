@@ -49,6 +49,127 @@
             <mxPoint x="150" y="125" as="point" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-98" value="求解算法" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1075" width="946" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-99" value="初始解构造" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="mQLZQ0sHA-jSjoIEFeY9-98">
+          <mxGeometry x="29" y="42" width="131" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-100" value="破坏算子&#xa;断点移除 / 时空邻近移除" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="mQLZQ0sHA-jSjoIEFeY9-98">
+          <mxGeometry x="182" y="35" width="216" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-101" value="修复算子&#xa;遗憾值插入 / 参数刷新修复" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="mQLZQ0sHA-jSjoIEFeY9-98">
+          <mxGeometry x="420" y="35" width="231" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-102" value="局部搜索&#xa;路径优化 / 相邻交换 / 局部重排" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="mQLZQ0sHA-jSjoIEFeY9-98">
+          <mxGeometry x="673" y="35" width="260" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-103" value="动态局部重调度数学模型" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="406" y="886" width="534" height="161" as="geometry" />
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-104" value="目标函数&#xa;综合考虑行驶成本、惩罚成本、启用成本和方案扰动" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="mQLZQ0sHA-jSjoIEFeY9-103">
+          <mxGeometry x="29" y="50" width="257" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-105" value="约束体系&#xa;起点连续性 / 唯一服务 / 容量约束&#xa;时间递推 / 时间窗约束 / 绿区限行" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="mQLZQ0sHA-jSjoIEFeY9-103">
+          <mxGeometry x="308" y="35" width="213" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-106" value="问题二静态方案&#xa;路径 / 分配 / 时间 / 成本" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="787" y="510" width="219" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-107" value="动态事件输入&#xa;取消 / 新增 / 地址变更 / 时间窗调整" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="789" y="600" width="216" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-108" value="状态重构与快照" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="818" y="706" width="158" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-109" value="任务集合重构&#xa;已完成任务 / 执行中任务 / 待执行任务 / 剩余任务" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="517" y="780" width="227" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-110" value="车辆状态快照&#xa;当前位置 / 当前时间 / 剩余载重 / 剩余容积" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="767" y="780" width="260" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-111" value="受影响区域识别" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1049" y="796" width="158" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-112" value="确定受影响车辆" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="962" y="943" width="159" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-113" value="确定冻结车辆" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1143" y="943" width="145" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-114" value="形成动态任务池" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1309" y="943" width="159" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-115" value="输出结果&#xa;更新路径 / 任务重分配 / 成本变化 / 稳定性评价" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="566" y="1218" width="213" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-116" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="mQLZQ0sHA-jSjoIEFeY9-106" target="mQLZQ0sHA-jSjoIEFeY9-107">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-117" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="mQLZQ0sHA-jSjoIEFeY9-107" target="mQLZQ0sHA-jSjoIEFeY9-108">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-118" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.72;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="mQLZQ0sHA-jSjoIEFeY9-108" target="mQLZQ0sHA-jSjoIEFeY9-109">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="631" y="766" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-119" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="mQLZQ0sHA-jSjoIEFeY9-108" target="mQLZQ0sHA-jSjoIEFeY9-110">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-120" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.76;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="mQLZQ0sHA-jSjoIEFeY9-108" target="mQLZQ0sHA-jSjoIEFeY9-111">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1128" y="766" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-121" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.26;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="mQLZQ0sHA-jSjoIEFeY9-111" target="mQLZQ0sHA-jSjoIEFeY9-112">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1041" y="872" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-122" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.74;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="mQLZQ0sHA-jSjoIEFeY9-111" target="mQLZQ0sHA-jSjoIEFeY9-113">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1215" y="872" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-123" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.83;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="mQLZQ0sHA-jSjoIEFeY9-111" target="mQLZQ0sHA-jSjoIEFeY9-114">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1389" y="872" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-124" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.68;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="mQLZQ0sHA-jSjoIEFeY9-111" target="mQLZQ0sHA-jSjoIEFeY9-103">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="673" y="872" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-125" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="mQLZQ0sHA-jSjoIEFeY9-103" target="mQLZQ0sHA-jSjoIEFeY9-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mQLZQ0sHA-jSjoIEFeY9-126" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="mQLZQ0sHA-jSjoIEFeY9-98" target="mQLZQ0sHA-jSjoIEFeY9-115">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
